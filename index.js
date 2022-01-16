@@ -13,7 +13,6 @@ const questions = [
         type: 'input',
         message: "What is your GitHub username? (No @ needed)",
         name: 'username',
-        default: 'connietran-dev',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub username is required.");
@@ -59,23 +58,20 @@ const questions = [
     },
     {
         type: 'input',
+        message: "List tools and utilities used to make this project",
+        name: 'Tools',
+        default: 'Project utilities',
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("A valid project description is required.");
+            }
+            return true;
+        }
+    },
+    {
+        type: 'input',
         message: "If applicable, describe the steps required to install your project for the Installation section.",
         name: 'installation'
-    },
-    {
-        type: 'input',
-        message: "Provide instructions and examples of your project in use for the Usage section.",
-        name: 'usage'
-    },
-    {
-        type: 'input',
-        message: "If applicable, provide guidelines on how other developers can contribute to your project.",
-        name: 'contributing'
-    },
-    {
-        type: 'input',
-        message: "If applicable, provide any tests written for your application and provide examples on how to run them.",
-        name: 'tests'
     },
     {
         type: 'list',
