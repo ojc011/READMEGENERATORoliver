@@ -1,0 +1,22 @@
+{
+  "name": "readmegeneratoroliver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Oliver Cronk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojc011/READMEGENERATORoliver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ojc011/READMEGENERATORoliver/issues"
+  },
+  "homepage": "https://github.com/ojc011/READMEGENERATORoliver#readme",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
