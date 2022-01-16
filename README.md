@@ -5,9 +5,3 @@
 A basic command line application that allows users to input data based on the prompted questions, and once completed, will generate a professionally formatted readme file using the data from the questions.
 
 ## APP FUNCTIONALITY:  https://watch.screencastify.com/v/xSKDR4q1m2cEVJ2Xxh2G
-
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Methodology](#methodology)
-* [License](#license)
