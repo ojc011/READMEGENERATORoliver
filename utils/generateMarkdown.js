@@ -9,8 +9,6 @@ function generateMarkdown(userResponses, userInfo) {
     if (userResponses.usage !== '') { draftToC += `
     * [Usage](#usage)` };
   
-    if (userResponses.contributing !== '') { draftToC += `
-    * [Contributing](#contributing)` };
   
     if (userResponses.tests !== '') { draftToC += `
     * [Tests](#tests)` };
@@ -66,20 +64,6 @@ function generateMarkdown(userResponses, userInfo) {
     ${userResponses.usage}`
     };
     
-    
-    // Optional Contributing section
-    if (userResponses.contributing !== '') {
-  
-    draftMarkdown +=
-      
-    `
-    
-    ## Contributing
-    
-    *If you would like to contribute it, you can follow these guidelines for how to do so.*
-    
-    ${userResponses.contributing}`
-    };
     
   
     // Optional Tests section
